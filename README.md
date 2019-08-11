@@ -3,7 +3,7 @@
 
 Running the application locally
 
-There are several ways to run a application on your local machine. One way is to execute the main method in the ShardsApplication class from your IDE.
+There are several ways to run a application on your local machine. One way is to execute the main method in the ByKeyApplication class from your IDE.
 
 File -> Import -> Existing Maven Project -> Navigate to the project folder
 Select the project
@@ -17,11 +17,11 @@ mvn spring-boot:run`
 
 
 
-Реализовать сервис обработки платежей. 
-Данные платежа: отправитель, получатель, сумма.
-Сервис использует механизм шардирования для хранения платежей в 3 базах данных.
-Информация о платеже сохраняется в одной из трех БД для распределения нагрузки.
+Implement a payment processing service.
+Payment details: sender, receiver, amount.
+The service uses a sharding mechanism to store payments in 3 databases.
+Payment information is stored in one of three databases for load balancing.
 
-Требуется реализовать api:
-Загрузка списка платежей;
-Выдача общей суммы потраченных средств по отправителю.
+Required to implement api:
+Download a list of payments;
+The issuance of the total amount spent on the sender.
