@@ -24,5 +24,5 @@ The service uses a sharding mechanism to store payments in 3 databases.
 Payment information is stored in one of three databases for load balancing.  
 
 Required to implement api:  
-Download a list of payments;  
-The issuance of the total amount spent on the sender. 
+Load a list of payments;  
+The issuance of the total amount spent the sender. 
