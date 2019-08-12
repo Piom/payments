@@ -16,6 +16,8 @@ cd payments-api
 mvn spring-boot:run
 ```
 
+Now you can test it in your browser by visiting http://localhost:8080/swagger-ui.html
+
 
 
 Implement a payment processing service.  
